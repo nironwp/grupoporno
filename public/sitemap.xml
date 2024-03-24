@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="sitemap-stylesheet.xsl"?>
+      <urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+      xmlns:xhtml="http://www.w3.org/1999/xhtml">
+      
+	<url>
+		<loc>https://grupoporno.com/(admin-panel-layout)/layout</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(admin-panel-layout)/painel/admin/categorias/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(admin-panel-layout)/painel/admin/config/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(admin-panel-layout)/painel/admin/grupos/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(admin-panel-layout)/painel/admin/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(admin-panel-layout)/painel/admin/users/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(auth-layout)/layout</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(auth-layout)/login/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(auth-layout)/logout/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(auth-layout)/register/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/grupos/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/grupos/[category]/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/grupos/[category]/[group]/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/imp/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/layout</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(base-layout)/search/[term]/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(panel-layout)/layout</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/(panel-layout)/painel/page</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/globals</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/layout</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+
+	<url>
+		<loc>https://grupoporno.com/</loc>
+		<lastmod>2024-03-12</lastmod>
+	</url>
+</urlset>

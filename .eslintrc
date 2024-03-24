@@ -1,0 +1,11 @@
+{
+    "extends": "next",
+
+        "rules": {
+          "jsx-a11y/alt-text": "off",
+          "@next/next/no-img-element": "off",
+          "react/no-unescaped-entities": "off",
+          "react-hooks/exhaustive-deps": "off"
+        }
+            
+  }
