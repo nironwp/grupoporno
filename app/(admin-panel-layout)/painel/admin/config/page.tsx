@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { getCookie } from "@/lib/cookies";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
