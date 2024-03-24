@@ -1,6 +1,7 @@
 import { cache } from "react";
 import axios from "axios";
 import { revalidateAdminPanel } from "./actions";
+import { json } from "stream/consumers";
 
 export type ISettingsRequestOptions = {
   status: number;
@@ -58,6 +59,7 @@ export const getSettings = async () => {
 
   return cachedSettings;
 };
+
 export const updateSetting = async (
   name: string,
   newValue: string,
@@ -65,28 +67,37 @@ export const updateSetting = async (
   confidential?: boolean,
   setting_image?: File
 ) => {
-  const data = new FormData()
-  if(setting_image) {
-    data.append('config-image', setting_image)
+  const formData = new FormData();
+
+  if (setting_image) {
+    formData.append('config-image', setting_image);
   }
-  if(confidential) {
-    data.append('confidential', String(confidential ? 1 : 0))
+
+  if (confidential !== undefined) {
+    formData.append('confidential', confidential ? '1' : '0');
   }
-  data.append('option', name)
-  data.append('valOption', newValue)
-  const config = {
-    method: 'patch',
-    url: `${process.env.NEXT_PUBLIC_API_URL}/settings/patch`,
+
+  formData.append('option', name);
+  formData.append('valOption', newValue);
+
+  const config: AxiosRequestConfig = {
+    method: 'post',
+    url: `${process.env.NEXT_PUBLIC_API_URL}/settings/post`,
     headers: {
-      Authorization: 'Bearer ' + token,
+      Authorization: `Bearer ${token}`,
+      'Content-Type': setting_image ? 'multipart/form-data' : 'application/json',
     },
-    data: data,
+    data: formData,
     maxBodyLength: Infinity,
+  };
+
+  try {
+    const settingsRequest = await axios(config);
+    revalidateAdminPanel(); // Assuming this function is defined elsewhere
+    return settingsRequest;
+  } catch (error) {
+    // Handle error appropriately
+    console.error('Error updating setting:', error);
+    throw error;
   }
-  const settingsRequest = await axios(config)
-
-
-  revalidateAdminPanel();
-
-  return settingsRequest;
 };
