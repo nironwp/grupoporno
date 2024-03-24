@@ -1,5 +1,5 @@
 import { cache } from "react";
-import axios from "axios";
+import axios, { AxiosRequestConfig } from "axios";
 import { revalidateAdminPanel } from "./actions";
 import { json } from "stream/consumers";
 
