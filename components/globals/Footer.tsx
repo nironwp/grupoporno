@@ -17,7 +17,13 @@ export const Footer = async () => {
             alt={settings.meta_title}
           />
           <ul className="flex gap-5 flex-wrap items-center text-white text-lg font-bold">
-            {categories.map((category) => {
+                <Link
+                  className="transition-all hover:text-black"
+                  href={`/contact`}
+                >
+                  Contato
+                </Link>
+            {categories.slice(0,3).map((category) => {
               return (
                 <Link
                   className="transition-all hover:text-black"
