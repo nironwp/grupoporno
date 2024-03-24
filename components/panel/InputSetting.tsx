@@ -28,7 +28,7 @@ export const InputSetting = ({
     if (updatedSetting.status === 200) {
       toast({
         variant: "success",
-        title: "Configuração atualizada com sucesso",
+        title: "Configuração atualizada com sucesso (aguarde alguns minutos até fazer efeito)",
       });
     } else {
       toast({
